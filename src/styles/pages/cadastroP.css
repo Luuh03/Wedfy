@@ -1,0 +1,88 @@
+#page-registerp {
+  background: url(../../images/backgroundDev.svg) no-repeat right ;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+#page-registerp h1 {
+  font: 300 45px Titillium Web;
+  
+  margin-left: 48px;
+  margin-top: 50px;
+  margin-bottom: 57px;
+}
+
+#page-registerp .form-registerp {
+  max-width: 773px;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  column-gap: 99px;
+
+  margin-left: 74px;
+}
+
+.form-registerp .input-block{
+  margin-bottom: 6px;
+}
+
+.form-registerp .input-block input {
+  width: 419px;
+  height: 40px;
+
+  border-radius: 9px;
+  background: #ECECEC;
+
+  border: none;
+  font-size: 20px;
+
+  padding: 0 10px;
+}
+
+.form-registerp .input-block .short {
+  width: 260px;
+} 
+
+.form-registerp button {
+  width: 370px;
+  height: 40px;
+
+  border-radius: 9px;
+  background: #25B66D;
+  color: #ffffff;
+
+  font: 300 20px Titillium Web;
+
+  border: none;
+
+  margin-top: 57px;
+
+  transition: background 0.2s;
+}
+
+.form-registerp button:hover {
+  background: #0C9D54;
+}
+
+.form-registerp select {
+  width: 200px;
+  height: 40px;
+
+  border-radius: 9px;
+  background: #ECECEC;
+
+  font-family: Titillium Web;
+  border: none;
+}
+
+#page-registerp .img-language-container img {
+  height: 200px;
+  width: 200px;
+}
+
+.img-language-container label {
+  font-size: 20px;
+}

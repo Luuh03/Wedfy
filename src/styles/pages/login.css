@@ -1,0 +1,115 @@
+#page-login {
+    justify-content: center;
+    display: flex;
+}
+
+.login-form {
+    width: 500px;
+    height: 625px;
+
+    background: #ffffff;
+    border-radius: 40px;
+    
+    position: absolute;
+    margin-top: 81px;
+
+    font-size: 20px;
+}
+
+.login-form h1 {
+    text-align: center;
+    font: 300 45px Titillium Web;
+
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#page-login .input-block {
+    margin-left: 70px;
+    margin-top: 6px;
+
+    font-size: 22px;
+}
+
+#page-login .input-block input {
+    height: 40px;
+    width: 370px;
+
+    border-radius: 9px;
+    background: #ECECEC;
+
+    border: none;
+    font-size: 20px;
+}
+
+#page-login .login-button {
+    height: 40px;
+    width: 369px;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    margin-left: 70px;
+    
+    background-color: #25B66D;
+    border: none;
+    color: #ffffff;
+    border-radius: 9px;
+
+    font: 700 20px Titillium Web;
+
+    transition: background 0.2s;
+}
+
+.login-button:hover {
+    background: #0C9D54;
+}
+
+.login-form p {
+    margin-top: 63px;
+    margin-left: 60px;
+}
+
+#page-login .buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+}
+
+#page-login .buttons-container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    font: 700 20px Titillium Web;
+    color: #ffffff;
+
+    border-radius: 9px;
+
+    height: 40px;
+    width: 182px;
+
+    transition: background 0.2s;
+}
+
+#page-login .client-button{
+    background: #9893DA;
+}
+
+#page-login .client-button:hover{
+    background: #746FB6;
+}
+
+#page-login .dev-button {
+    background: #72727E;
+    margin-left: 5px;
+}
+
+#page-login .dev-button:hover {
+    background: #5E5E6A;
+}

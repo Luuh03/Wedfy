@@ -1,0 +1,84 @@
+#page-landing {
+    width: 100vw;
+    height: 100vh;
+    /*background: linear-gradient(247.69deg, #C3C0EB 11.28%, rgba(255, 255, 255, 0) 96.41%), #D9D7F4;*/
+}
+
+.logo-content{
+    color: #9C96E7; 
+    line-height: 55px;
+}
+
+.logo-content h1 {
+    font-weight: 300;
+    font-size: 50px;
+    margin-left: 17px;
+}
+
+.logo-content p {
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 17px;
+}
+
+#page-landing .buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#page-landing .buttons-container a {
+    width: 245px;
+    height: 70px;
+
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    font: 700 30px Titillium Web;
+    color: #ffffff;
+
+    transition: background 0.2s;
+}
+
+#page-landing .client-button {
+    background: #9893DA;
+    margin-right: 8px;
+}
+
+#page-landing .client-button:hover {
+    background: #746FB6;
+}
+
+#page-landing .dev-button {
+    background: #72727E;
+}
+#page-landing .dev-button:hover {
+    background: #5E5E6A;
+}
+
+#page-landing{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#page-landing #content-wrapper {
+    max-width: 1295px;
+    display: grid;
+
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 400px 1fr;
+
+    grid-template-areas: 
+    "wedfy coding"
+    "button button";
+
+    column-gap: 115px;
+
+    justify-content: center;
+    align-items: center;
+}
