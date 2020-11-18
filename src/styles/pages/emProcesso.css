@@ -1,0 +1,9 @@
+#process-page {
+  background: #FFFFFF;
+  height: 100vh;
+}
+
+#process-page .search-body {
+  height: 1362px;
+  background: url(../../images/purpleRect.svg) no-repeat right ;
+}

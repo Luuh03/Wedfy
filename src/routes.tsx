@@ -7,6 +7,7 @@ import CadastroProgramador from './pages/cadastroP';
 import CadastroCliente from './pages/cadastroC';
 import Home from './pages/home';
 import Sobre from './pages/sobre';
+import emProcesso from './pages/emProcesso';
 
 function Routes(){
     return(
@@ -18,6 +19,7 @@ function Routes(){
                 <Route path="/cadastroC" component={CadastroCliente} />
                 <Route path="/home" component={Home} />
                 <Route path="/sobre" component={Sobre} />
+                <Route path="/em-processo" component={emProcesso} />
             </Switch>
         </BrowserRouter>
     );
